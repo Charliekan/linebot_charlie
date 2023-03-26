@@ -13,8 +13,13 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('z9434dCZcwjCrgxcXALCYC/7ieRNs2/mJXjpDjfUZuEoZ+so473cuAXRHW15jvy+V1S2eT/uHX09NBwgoyg7LiScBfMjuSCzZxJ+jyJAfgOZlWK3K27ZXiST3ZoOR2w5lVdRNEAFrs68OEuXGr81h6wdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('e703ff956c7961ea8d3b9a3e29efc6bb')
+#環境変数からLINE Access Tokenを設定
+LINE_CHANNEL_ACCESS_TOKEN = os.environ["LINE_CHANNEL_ACCESS_TOKEN"]
+#環境変数からLINE Channel Secretを設定
+LINE_CHANNEL_SECRET = os.environ["LINE_CHANNEL_SECRET"]
+
+line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
+handler = WebhookHandler(LINE_CHANNEL_SECRET)
 
 #@app.route("/")
 #def test():
