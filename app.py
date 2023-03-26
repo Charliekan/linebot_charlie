@@ -13,8 +13,8 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_bot_api = os.environ.get('LINE_ACCSES_TORKEN')
-handler = os.environ.get('LINE_CANNEL_SECRET_KEY')
+line_bot_api = LineBotApi('z9434dCZcwjCrgxcXALCYC/7ieRNs2/mJXjpDjfUZuEoZ+so473cuAXRHW15jvy+V1S2eT/uHX09NBwgoyg7LiScBfMjuSCzZxJ+jyJAfgOZlWK3K27ZXiST3ZoOR2w5lVdRNEAFrs68OEuXGr81h6wdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('e703ff956c7961ea8d3b9a3e29efc6bb')
 
 #@app.route("/")
 #def test():
