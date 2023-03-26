@@ -1,5 +1,6 @@
 from flask import Flask, request, abort
 import random  # randomモジュールをインポート
+import os
 
 from linebot import (
     LineBotApi, WebhookHandler
