@@ -35,7 +35,7 @@ def callback():
     return 'OK'
 
 def get_cat_news():
-    api_key = "your_news_api_key"
+    api_key = "33c36db0c82d4682b9cbf99a226e60f5"
     url = "https://newsapi.org/v2/everything"
     query = "猫"
     params = {
