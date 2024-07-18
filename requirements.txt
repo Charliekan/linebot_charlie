@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 aenum==3.1.15
 aiohttp==3.9.5
 aiosignal==1.3.1
@@ -28,3 +29,28 @@ urllib3==2.2.2
 Werkzeug==3.0.3
 wrapt==1.16.0
 yarl==1.9.4
+=======
+aiohttp==3.8.4
+aiosignal==1.3.1
+async-timeout==4.0.2
+attrs==22.2.0
+certifi==2022.12.7
+charset-normalizer==3.1.0
+click==8.1.3
+Flask==2.2.3
+frozenlist==1.3.3
+future==0.18.3
+gunicorn==20.1.0
+idna==3.4
+importlib-metadata==6.1.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+line-bot-sdk==2.4.2
+MarkupSafe==2.1.2
+multidict==6.0.4
+requests==2.28.2
+urllib3==1.26.15
+Werkzeug==2.2.3
+yarl==1.8.2
+zipp==3.15.0
+>>>>>>> 7134a73ea6ea94a36244d810e69e30cf32a051bc
